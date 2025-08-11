@@ -3,9 +3,9 @@ const $$ = document.querySelectorAll.bind(document);
 
 const app = {
   slides: [
-    "assets/img/band1.png",
-    "assets/img/band2.png",
-    "assets/img/band3.png",
+    "./assets/img/band1.png",
+    "./assets/img/band2.png",
+    "./assets/img/band3.png",
   ],
   slideIndex: 0,
 
