@@ -3,15 +3,19 @@ const $$ = document.querySelectorAll.bind(document);
 
 const app = {
   slides: [
-    "/w3_band/assets/img/band1.png",
-    "/w3_band/assets/img/band2.png",
-    "/w3_band/assets/img/band3.png",
+    "assets/img/band1.png",
+    "assets/img/band2.png",
+    "assets/img/band3.png",
   ],
   slideIndex: 0,
 
   slider() {
     const slider = $("#slider");
     const contents = $$(".text-content");
+
+    slider.style.background = `url(${
+      this.slides[this.slideIndex]
+    }) top center / cover no-repeat`;
 
     setInterval(() => {
       this.slideIndex++;
