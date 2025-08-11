@@ -1,0 +1,130 @@
+/* PC  */
+@media (min-width: 1024px) {
+  #header .bar_btn {
+    display: none;
+  }
+}
+
+/* Tablet and Mobile  */
+@media (max-width: 1023px) {
+  .ticket-details .buy-btn,
+  .sendBtn {
+    padding: 12px 16px;
+  }
+
+  .contact-info {
+    line-height: 1.8;
+  }
+
+  .contact-input input {
+    padding: 12px;
+  }
+
+  #footer .social-icons {
+    font-size: 32px;
+    margin: 0 4px;
+  }
+
+  #footer .creator-name span {
+    padding: 12px 0;
+  }
+}
+
+/* Tablet  */
+@media (min-width: 740px) and (max-width: 1023px) {
+  #header .bar_btn {
+    display: none;
+  }
+}
+
+/* Mobile  */
+@media (max-width: 739px) {
+  #header {
+    overflow: hidden;
+  }
+
+  #nav {
+    display: block;
+  }
+
+  #nav .subnav {
+    background-color: #333;
+  }
+
+  #nav .subnav a {
+    color: white;
+  }
+
+  #nav .subnav > li > a {
+    padding: 5px 36px;
+  }
+
+  #nav > li {
+    display: block;
+  }
+
+  #nav li:first-child {
+    display: inline-block;
+  }
+
+  #header .search_btn {
+    display: none;
+  }
+
+  #header .bar_btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #content .about-members {
+    display: block;
+  }
+
+  #content .tour-tickets {
+    display: block;
+  }
+
+  .tour-tickets .ticket-info {
+    width: 100%;
+    display: block;
+  }
+
+  .contact-container {
+    display: block;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-form {
+    margin-top: 16px;
+  }
+
+  .contact-form input {
+    display: block;
+    width: 100%;
+  }
+
+  .contact-input input + input {
+    margin: 8px 0;
+  }
+
+  .contact-input::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .sendBtn {
+    width: 100%;
+    float: unset;
+  }
+
+  .ticket-details .buy-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
